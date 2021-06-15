@@ -13,19 +13,18 @@ exp(-x) - 5 == e^-x - 5
 */
 
 float F(float x){
-  return 
+  return 2*(x*x*x)- 5;
  
   
 }
 
 void printAnswer(float A,float fa,float B,float fb,float M,float fm,float er){
 
-  cout<<A<<setw(12)<<fa<<setw(12)<<B<<setw(12)<<fb<<setw(12)<<M<<setw(12)<<fm<<setw(12)<<er<<endl;
+  cout<<endl<<endl<<A<<setw(12)<<fa<<setw(12)<<B<<setw(12)<<fb<<setw(12)<<M<<setw(12)<<fm<<setw(12)<<er<<endl;
 
 }
 
 int main(){
-cout<<F(2);
  float x,y;
  cout<<"x = ";
  cin>>x;
